@@ -4,8 +4,8 @@ const IndexPage = () => (
   <>
     <h1>Hello Next.js 👋</h1>
     <p>
-      <Link href="/about">
-        <a>About</a>
+      <Link href="/ricardocasares">
+        <a>ricardocasares</a>
       </Link>
     </p>
   </>
