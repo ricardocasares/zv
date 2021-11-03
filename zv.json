@@ -1,0 +1,339 @@
+{
+  "basics": {
+    "name": "Ricardo Casares",
+    "label": "Full Stack Human",
+    "email": "ricardocasares@gmail.com",
+    "phone": "",
+    "summary": "A web craftsman, passionate about the Internet and new technologies.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Kraków",
+      "countryCode": "PL",
+      "region": "Małopolskie"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ricardocasares",
+        "url": "https://github.com/ricardocasares"
+      },
+      {
+        "network": "Gitlab",
+        "username": "ricardocasares",
+        "url": "https://gitlab.com/ricardocasares"
+      }
+    ],
+    "picture": "https://avatars0.githubusercontent.com/u/84963?s=460&u=f32960c1cea4811583d84203e022d6f10388acfc&v=4",
+    "website": "https://analogic.al"
+  },
+  "work": [
+    {
+      "position": "Software Engineering Manager",
+      "startDate": "2021-05-04",
+      "endDate": "2022-05-04",
+      "summary": "Managing software development Core team.",
+      "highlights": [],
+      "company": "Tesco Technology & Services Europe",
+      "location": "Kraków",
+      "website": "https://tesco.com"
+    },
+    {
+      "position": "Software Engineering Team Lead",
+      "startDate": "2018-11-18",
+      "endDate": "2021-04-31",
+      "summary": "Leading a cross-functional agile team with varying levels of experience to deliver mission-critical services and components.",
+      "highlights": [
+        "Led the company's home page modernization for UK customers.",
+        "Led the development of high-load session authentication microservices.",
+        "Led the development of DCI-PSS (cardholder data) compliant services.",
+        "Led improvements on customer journey for first-time depositing users.",
+        "Led the development of GraphQL gateway service layer unifying multiple Java backends."
+      ],
+      "company": "Grand Parade",
+      "location": "Kraków",
+      "website": "https://grandparade.co.uk"
+    },
+    {
+      "position": "Lead Software Engineer",
+      "startDate": "2017-07-31",
+      "endDate": "2018-10-31",
+      "summary": "Focused on research and development with team management responsibilities for one of the biggest EPAM's client in EU/US.",
+      "highlights": [
+        "Certified technical interviewer.",
+        "Member of JavaScript Experts Internal Assessment Committee.",
+        "Developed Voice User Interfaces (Google Home, Alexa) for integration with our client's products.",
+        "Led a distributed team with focus on building UI web components library.",
+        "Public speaking: Voice User Interfaces (Barka, Kraków, June 2018)."
+      ],
+      "company": "EPAM Systems",
+      "website": "https://epam.com"
+    },
+    {
+      "position": "Senior Software Engineer",
+      "startDate": "2015-07-31",
+      "endDate": "2017-07-31",
+      "summary": "Senior Software Engineer with focus on research and development of UI libraries.",
+      "highlights": [
+        "Developed custom UI web components using TypeScript.",
+        "Developed custom UI components using Angular and wrapping existing web components.",
+        "Developed custom UI component styles in a modular and highly reusable approach using SASS.",
+        "Public speaking: Web Components (Barka, Kraków, 2017).",
+        "Public speaking: Web Components (Sztuka Wyboru, Gdańsk, 2017)."
+      ],
+      "company": "EPAM Systems",
+      "website": "https://epam.com"
+    },
+    {
+      "position": "Senior Software Engineer",
+      "startDate": "2014-12-01",
+      "endDate": "2015-05-01",
+      "summary": "Worked on a project for Walt Disney Parks & Resorts, one of the oldest and biggest accounts on the company, migrating from an legacy PHP based platform to AngularJS & Node.js",
+      "highlights": [
+        "Developed critical UI components as AngularJS directives. They had to be generic enough to be used across several business verticals.",
+        "Improved performance on several UI components by the reduction of watchers, replacing them with the proper use of ng-model controller on directives.",
+        "Improved performance on several UI components by reducing the amount of unnecessary two-way-bindings, replacing them with one-time-bindings.",
+        "Integrated several REST API services through AngularJS services and factories."
+      ],
+      "company": "Globant",
+      "website": "https://globant.com"
+    },
+    {
+      "position": "Senior Software Engineer",
+      "startDate": "2014-01-02",
+      "endDate": "2014-11-21",
+      "summary": "Worked at BHP Global on a internal product based on the MEAN stack: MongoDB, Express, AngularJS & Node.js",
+      "highlights": [
+        "Public speaking: HipChat integrations (Buenos Aires, 2014).",
+        "Developed a REST API backend from ground zero, using Node.js and MongoDB, with JWToken authentication.",
+        "Fully integrated with JIRA project management tool through JIRA's REST API.",
+        "Responsive & mobile friendly admin panel built from ground zero with Twitter's Bootstrap framework."
+      ],
+      "company": "BHP Global S.A.",
+      "website": "https://bhp-global.com"
+    },
+    {
+      "position": "Senior Software Engineer",
+      "startDate": "2013-04-01",
+      "endDate": "2014-01-01",
+      "summary": "Worked at Itexa S.R.L. on several projects built on the LAMP stack: Linux, Apache, MySQL & PHP. Involved technologies were the CodeIgniter PHP framework, jQuery & Bootstrap.",
+      "highlights": [
+        "Fully developed a medium sized learning management system for the Alliance Française.",
+        "Developed a full-fledged accounting system for schools on a team composed by 3 people. I remember this team as the perfect MVC team.",
+        "Developed an entire corporate newsletter web application for ESET Latin America."
+      ],
+      "company": "Itexa S.R.L.",
+      "website": "https://itexa.com.ar"
+    },
+    {
+      "position": "Senior Software Engineer",
+      "startDate": "2012-01-03",
+      "endDate": "2013-01-01",
+      "summary": "Worked at BHP Global on an integration project between two project management tools, JIRA & TestLink, for the Q&A area of Banco Hipotecario S.A.",
+      "highlights": [
+        "Extended TestLink API capabilities. ",
+        "Built a middleware architecture to manage the comunication between tools: TestLink XML-RPC <=> JIRA REST",
+        "Extended TestLink reporting capabilities."
+      ],
+      "company": "BHP Global S.A.",
+      "website": "https://bhp-global.com"
+    },
+    {
+      "position": "Instructor",
+      "startDate": "2010-02-01",
+      "endDate": "2012-01-01",
+      "summary": "Worked together with ISRI (a private tech-related education center) to bring new topics to the classrooms in order to achieve innovation goals.",
+      "highlights": [
+        "Cisco CCNA I Instructor",
+        "Cisco CCNA II Instructor",
+        "Cisco CCNA III Instructor",
+        "Cisco CCNA IV Instructor",
+        "Mikrotik RouterOS Instructor",
+        "Introduction to CodeIgniter Instructor"
+      ],
+      "company": "ISRI - TecnoConsulta S.R.L.",
+      "website": "https://isri.com.ar"
+    },
+    {
+      "position": "Senior Network Services Manager",
+      "startDate": "2007-03-01",
+      "endDate": "2010-06-24",
+      "summary": "Worked at Interredes S.A., a San Juan based ISP provider, from Tech Support to Network Services Manager, and on many different projects.",
+      "highlights": [
+        "Implemented Interredes first BGP Autonomous System within a 3 people team.",
+        "Replaced old MS DNS server with a Linux MySQL backed PowerDNS server.",
+        "Built a virtual hosting service with PHP scripting & MySQL capabilities.",
+        "Developed an internal support ticket system with client connection diagnostic capabilities to improve the support response time."
+      ],
+      "company": "Interredes S.A.",
+      "website": "https://www.interredes.com.ar"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Proydesa Foundation",
+      "area": "Networking",
+      "studyType": "CCNA Course Instructor",
+      "startDate": "2009-01-01",
+      "endDate": "2011-01-01",
+      "gpa": "",
+      "courses": [
+        "Network Fundamentals",
+        "Routing Protocols and Concepts",
+        "LAN Switching & Wireless",
+        "Accesing the WAN"
+      ]
+    },
+    {
+      "institution": "Instituto Superior en Redes & Informática",
+      "area": "Networking",
+      "studyType": "Cisco Certified Network Associate",
+      "startDate": "2002-01-01",
+      "endDate": "2004-01-01",
+      "gpa": "",
+      "courses": [
+        "Network Fundamentals",
+        "Routing Protocols and Concepts",
+        "LAN Switching & Wireless",
+        "Accesing the WAN"
+      ]
+    },
+    {
+      "institution": "Universidad Nacional de San Juan",
+      "area": "Facultad de Igeniería",
+      "studyType": "Electronic Engeneering (Uncompleted)",
+      "startDate": "2004-01-01",
+      "endDate": "2007-01-01",
+      "gpa": "",
+      "courses": [
+        "Mathematical Analysis I",
+        "Mathematical Analysis II",
+        "Algebra and Analytic Geometry",
+        "Physics I",
+        "Physics II",
+        "Electromagnetism",
+        "Computing I",
+        "Computing II",
+        "English I",
+        "English II",
+        "Economics"
+      ]
+    },
+    {
+      "institution": "Universidad Tecnológica Nacional",
+      "area": "Facultad Regional Buenos Aires",
+      "studyType": "Advanced Java Programming",
+      "startDate": "2012-02-15",
+      "endDate": "2012-06-11",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "Advanced",
+      "keywords": ["ReactJS", "Next.js", "Angular", "TypeScript"]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Express", "GraphQL", "Socket.io", "Gulp"]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": ["ECS", "Lambda", "DynamoDB", "Alexa Custom Skills"]
+    },
+    {
+      "name": "Agile",
+      "level": "Advanced",
+      "keywords": ["Scrum", "Kanban", "VSM", "DevOps"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": ["Docker", "Gitlab Pipelines", "Github Actions", "Terraform"]
+    },
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": ["Semantics", "Accessibility", "HTML 5", "Custom Elements"]
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": ["CSS 3", "LESS", "Stylus", "SASS"]
+    },
+    {
+      "name": "PHP",
+      "level": "Advanced",
+      "keywords": ["CakePHP", "Laravel", "Codeigniter", "Slim"]
+    },
+    {
+      "name": "Databases",
+      "level": "Intermediate",
+      "keywords": ["MySQL", "Postgres", "MongoDB"]
+    },
+    {
+      "name": "Cisco IOS",
+      "level": "Advanced",
+      "keywords": ["ACL", "BGP", "Monitoring"]
+    },
+    {
+      "name": "RouterOS",
+      "level": "Advanced",
+      "keywords": ["Queues", "Mangle", "Firewalling"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "C1 Level"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "Polish",
+      "fluency": "B1 Level"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Skydiving",
+      "keywords": ["B.A.S.E.", "Gliding"]
+    },
+    {
+      "name": "Music",
+      "keywords": ["Guitar", "Bass"]
+    },
+    {
+      "name": "Life hacking",
+      "keywords": [
+        "Enviroment-friendly",
+        "Self-management",
+        "Critical thinking",
+        "Decision-making"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Vadzim Yakushau, Lead Software Engineer, EPAM Systems",
+      "reference": "Ricardo is technically skilled, team builder, coach and mentor. I've had this chance and enjoyed working with Ricardo the last 2 years at EPAM. Keep the good work!"
+    },
+    {
+      "name": "Ernesto Corona, CEO, BHP Global",
+      "reference": "It is my pleasure to recommend Ricardo, his performance working as a consultant for BHP Global proved that he will be a valuable addition to any company."
+    },
+    {
+      "name": "Martín Fonzo, CEO, Communi Technologies",
+      "reference": "Ricardo is a team player, detail-oriented person who's always looking for new challenges, committed to the projects he works on. It is always a pleasure to work with him."
+    }
+  ]
+}
