@@ -1,5 +1,6 @@
 import React from "react";
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
+//
 import { getCssText } from "@/css";
 
 export default class Document extends NextDocument {

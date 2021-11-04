@@ -1,4 +1,4 @@
-import { css, styled } from "@/css";
+import { css } from "@/css";
 
 export const list = css({
   margin: 0,
