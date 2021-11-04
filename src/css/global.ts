@@ -1,6 +1,13 @@
 import { globalCss } from "@/css";
 
 export const globalStyles = globalCss({
+  html: {
+    boxSizing: "border-box",
+    fontSize: "$3",
+  },
+  "*, *:before, *:after": {
+    boxSizing: "inherit",
+  },
   "#__next, html": {
     minHeight: "100%",
     height: "100%",
@@ -9,7 +16,6 @@ export const globalStyles = globalCss({
     backgroundColor: "$bg",
     color: "$fg",
     fontFamily: "$sans",
-    fontSize: "$3",
     lineHeight: "$2",
     margin: 0,
     padding: 0,

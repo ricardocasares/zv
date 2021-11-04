@@ -1,10 +1,8 @@
 import { styled } from "@/css";
 
 export const Text = styled("p", {
-  boxSizing: "border-box",
+  color: "$text",
   fontFamily: "$sans",
-  lineHeight: "inherit",
-  margin: 0,
 
   variants: {
     kind: {
@@ -12,7 +10,6 @@ export const Text = styled("p", {
         fontSize: "$3",
         lineHeight: "$2",
         fontWeight: 400,
-        color: "$copy"
       },
       h1: {
         fontSize: "$6",

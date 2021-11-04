@@ -5,5 +5,6 @@ export const dark = createTheme({
     bg: "$black",
     fg: "$white",
     accent: "$turq",
+    text: "$copy",
   },
 });
