@@ -1,7 +1,7 @@
-import { theme, styled } from '@/css';
+import { styled } from '@/css';
 
 export const Grid = styled('div', {
   display: "grid",
-  gridGap: "$3",
-  gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))"
+  gridGap: "$4",
+  gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
 });
