@@ -1,9 +1,9 @@
 import { Text } from "@/components/Text";
 import { Link } from "@/components/Link";
-import { Stack } from "@/components/Stack";
+import { Wrap } from "@/components/Wrap";
 
-const IndexPage = () => (
-  <Stack pad={{ "@initial": 2, "@sm": 3 }} gap="2">
+const UIPage = () => (
+  <Wrap>
     <Text kind="h1">The lazy brown fox</Text>
     <Text kind="h2">Jumped over the fence</Text>
     <Text kind="h3">Can&apos;t fucking believe it</Text>
@@ -13,7 +13,7 @@ const IndexPage = () => (
         <a>ricardocasares</a>
       </Link>
     </Text>
-  </Stack>
+  </Wrap>
 );
 
-export default IndexPage;
+export default UIPage;
