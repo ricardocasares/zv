@@ -8,7 +8,6 @@ export const Stack = styled("div", {
   display: "flex",
   flexDirection: "column",
   justifyContent: "flex-start",
-  minHeight: "100%",
 
   "> *": {
     marginTop: "0",
