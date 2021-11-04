@@ -2,7 +2,6 @@ import Image from "next/image";
 import { FunctionComponent as FC } from "react";
 import {
   GetStaticPaths,
-  GetStaticProps,
   InferGetStaticPropsType as InferProps,
 } from "next";
 //---
@@ -14,6 +13,7 @@ import { Link } from "@/components/Link";
 import { Grid } from "@/components/Grid";
 import { Stack } from "@/components/Stack";
 import { list } from "@/css/lists";
+import { Wrap } from "@/components/Wrap";
 
 export const getStaticProps = async ({ params: { repo } }) => {
   const [user, branch = "main"] = repo as string[];
@@ -33,7 +33,7 @@ export const getStaticPaths: GetStaticPaths = () => {
 const rounded = css({ borderRadius: "$2", textAlign: "center" });
 
 const User: FC<InferProps<typeof getStaticProps>> = ({ zv, avatar }) => (
-  <Stack as="main" pad={{ "@initial": 2, "@sm": 3 }} gap="3">
+  <Wrap gap="4">
     <Stack as="section" css={{ textAlign: "center" }} gap="2">
       <Image
         alt={zv.basics.name}
@@ -63,7 +63,7 @@ const User: FC<InferProps<typeof getStaticProps>> = ({ zv, avatar }) => (
       </Grid>
     </Stack>
 
-    <Stack as="section" gap="2">
+    <Stack as="section" gap="3">
       <Text as="h3" kind="h3">Work experience</Text>
 
       <Stack gap="3">
@@ -95,7 +95,7 @@ const User: FC<InferProps<typeof getStaticProps>> = ({ zv, avatar }) => (
         <a>Go home</a>
       </Link>
     </Text>
-  </Stack>
+  </Wrap>
 );
 
 export default User;

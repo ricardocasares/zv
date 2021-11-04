@@ -1,5 +1,8 @@
+import type { VariantProps } from "@stitches/react";
+//
 import { theme, styled } from "@/css";
 
+export type Stack = VariantProps<typeof Stack>;
 export const Stack = styled("div", {
   boxSizing: "border-box",
   display: "flex",
