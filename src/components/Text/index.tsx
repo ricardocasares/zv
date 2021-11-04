@@ -1,6 +1,6 @@
 import { styled } from "@/css";
 
-export const Text = styled("h1", {
+export const Text = styled("p", {
   boxSizing: "border-box",
   fontFamily: "$sans",
   lineHeight: "inherit",
@@ -28,8 +28,22 @@ export const Text = styled("h1", {
       h3: {
         fontSize: "$4",
         lineHeight: "$3",
-        fontWeight: 500,
+        fontWeight: 400,
         color: "$gray"
+      },
+      h4: {
+        fontSize: "$3",
+        lineHeight: "$2",
+        fontWeight: 500,
+        color: "$accent"
+      },
+      h5: {
+        fontSize: "$1",
+        lineHeight: "$1",
+        fontWeight: 500,
+        color: "$gray",
+        textTransform: "uppercase",
+        // letterSpacing: "1px"
       },
     },
     family: {
@@ -44,6 +58,10 @@ export const Text = styled("h1", {
       bold: {
         fontStyle: "normal",
         fontWeight: "600",
+      },
+      thin: {
+        fontStyle: "normal",
+        fontWeight: "300",
       },
       normal: {
         fontStyle: "normal",
