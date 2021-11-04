@@ -1,19 +1,19 @@
 import type { FunctionComponent as FC } from "react";
 import type { GetStaticPaths, InferGetStaticPropsType as InferProps } from "next";
 //
-import type { ZV } from "@/types";
+import type { JSONResume } from "@/types";
 import { fetcher } from "@/lib/fetcher";
+import { list } from "@/css/lists";
+import { Seo } from "@/components/Seo";
 import { Text } from "@/components/Text";
-import { Link } from "@/components/Link";
 import { Grid } from "@/components/Grid";
+import { Wrap } from "@/components/Wrap";
 import { Stack } from "@/components/Stack";
 import { Image } from "@/components/Image";
-import { list } from "@/css/lists";
-import { Wrap } from "@/components/Wrap";
 
 export const getStaticProps = async ({ params: { repo } }) => {
   const [user, branch = "main"] = repo as string[];
-  const zv = await fetcher<ZV>(`/${user}/zv/${branch}/zv.json`);
+  const zv = await fetcher<JSONResume>(`/${user}/zv/${branch}/zv.json`);
 
   return { props: { zv }, revalidate: 60 };
 };
@@ -27,6 +27,7 @@ export const getStaticPaths: GetStaticPaths = () => {
 
 const User: FC<InferProps<typeof getStaticProps>> = ({ zv }) => (
   <Wrap gap="4">
+    <Seo title={[zv.basics.name, zv.basics.label].join(' - ')} description={zv.basics.summary} />
     <Stack as="section" css={{ alignItems: "center" }} gap="2">
 
       <Image
@@ -100,12 +101,6 @@ const User: FC<InferProps<typeof getStaticProps>> = ({ zv }) => (
         ))}
       </Stack>
     </Stack>
-
-    <Text>
-      <Link href="/">
-        <a>Go home</a>
-      </Link>
-    </Text>
   </Wrap>
 );
 

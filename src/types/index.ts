@@ -1,4 +1,4 @@
-export interface ZV {
+export interface JSONResume {
   /**
    * link to the version of the schema that can validate the resume
    */
