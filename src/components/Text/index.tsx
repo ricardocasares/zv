@@ -38,12 +38,11 @@ export const Text = styled("p", {
         color: "$accent"
       },
       h5: {
-        fontSize: "$1",
+        fontSize: "$2",
         lineHeight: "$1",
         fontWeight: 500,
         color: "$gray",
         textTransform: "uppercase",
-        // letterSpacing: "1px"
       },
     },
     family: {
