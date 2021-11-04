@@ -2,7 +2,8 @@ import { createTheme } from "@/css";
 
 export const dark = createTheme({
   colors: {
-    white: "$white",
-    black: "red",
+    bg: "$black",
+    fg: "$white",
+    accent: "$turq",
   },
 });

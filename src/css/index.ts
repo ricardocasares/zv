@@ -24,6 +24,9 @@ export const {
       turq: "rgba(0, 245, 196, 1)",
       orange: "rgba(255, 135, 31, 1)",
       copy: "rgba(170, 170, 175, 1)",
+      bg: "$white",
+      fg: "$black",
+      accent: "$pink",
     },
     fonts: {
       sans: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
@@ -79,10 +82,10 @@ export const {
     },
   },
   media: {
-    bp1: "(min-width: 575px)",
-    bp2: "(min-width: 750px)",
-    bp3: "(min-width: 1000px)",
-    bp4: "(min-width: 1200px)",
+    sm: "(min-width: 575px)",
+    md: "(min-width: 750px)",
+    lg: "(min-width: 1000px)",
+    xl: "(min-width: 1200px)",
   },
   utils: {
     p: (value: Stitches.PropertyValue<"paddingTop">) => ({

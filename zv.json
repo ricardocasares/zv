@@ -34,7 +34,7 @@
       "endDate": "2022-05-04",
       "summary": "Managing software development Core team.",
       "highlights": [],
-      "company": "Tesco Technology & Services Europe",
+      "name": "Tesco Technology & Services Europe",
       "location": "Kraków",
       "website": "https://tesco.com"
     },
@@ -50,7 +50,7 @@
         "Led improvements on customer journey for first-time depositing users.",
         "Led the development of GraphQL gateway service layer unifying multiple Java backends."
       ],
-      "company": "Grand Parade",
+      "name": "Grand Parade",
       "location": "Kraków",
       "website": "https://grandparade.co.uk"
     },
@@ -66,7 +66,7 @@
         "Led a distributed team with focus on building UI web components library.",
         "Public speaking: Voice User Interfaces (Barka, Kraków, June 2018)."
       ],
-      "company": "EPAM Systems",
+      "name": "EPAM Systems",
       "website": "https://epam.com"
     },
     {
@@ -81,7 +81,7 @@
         "Public speaking: Web Components (Barka, Kraków, 2017).",
         "Public speaking: Web Components (Sztuka Wyboru, Gdańsk, 2017)."
       ],
-      "company": "EPAM Systems",
+      "name": "EPAM Systems",
       "website": "https://epam.com"
     },
     {
@@ -95,7 +95,7 @@
         "Improved performance on several UI components by reducing the amount of unnecessary two-way-bindings, replacing them with one-time-bindings.",
         "Integrated several REST API services through AngularJS services and factories."
       ],
-      "company": "Globant",
+      "name": "Globant",
       "website": "https://globant.com"
     },
     {
@@ -109,7 +109,7 @@
         "Fully integrated with JIRA project management tool through JIRA's REST API.",
         "Responsive & mobile friendly admin panel built from ground zero with Twitter's Bootstrap framework."
       ],
-      "company": "BHP Global S.A.",
+      "name": "BHP Global S.A.",
       "website": "https://bhp-global.com"
     },
     {
@@ -122,7 +122,7 @@
         "Developed a full-fledged accounting system for schools on a team composed by 3 people. I remember this team as the perfect MVC team.",
         "Developed an entire corporate newsletter web application for ESET Latin America."
       ],
-      "company": "Itexa S.R.L.",
+      "name": "Itexa S.R.L.",
       "website": "https://itexa.com.ar"
     },
     {
@@ -135,7 +135,7 @@
         "Built a middleware architecture to manage the comunication between tools: TestLink XML-RPC <=> JIRA REST",
         "Extended TestLink reporting capabilities."
       ],
-      "company": "BHP Global S.A.",
+      "name": "BHP Global S.A.",
       "website": "https://bhp-global.com"
     },
     {
@@ -151,7 +151,7 @@
         "Mikrotik RouterOS Instructor",
         "Introduction to CodeIgniter Instructor"
       ],
-      "company": "ISRI - TecnoConsulta S.R.L.",
+      "name": "ISRI - TecnoConsulta S.R.L.",
       "website": "https://isri.com.ar"
     },
     {
@@ -165,7 +165,7 @@
         "Built a virtual hosting service with PHP scripting & MySQL capabilities.",
         "Developed an internal support ticket system with client connection diagnostic capabilities to improve the support response time."
       ],
-      "company": "Interredes S.A.",
+      "name": "Interredes S.A.",
       "website": "https://www.interredes.com.ar"
     }
   ],
